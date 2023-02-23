@@ -1,0 +1,60 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards #card {
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+.components{
+    overflow: hidden;
+        width: 100%;
+}
+.discourse_but{
+    margin: 50px;
+    margin-left: 45%;
+}
+
+.dis_table table th {
+    background: #c5cac5;
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.dis_table table{
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid;
+    margin-right: 20px;
+    margin-left: 10px;
+    border-collapse: collapse;
+}
+.dis_table table td {
+    background: #ffffff;
+    border-radius: 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+.dis_table table tr {
+    background: #a12c2c;
+    border-radius: 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+.add_dis {
+    margin-left: 90%;
+}
+
+.but {
+    margin-right: 3px;
+    margin-bottom: 3px;
+}

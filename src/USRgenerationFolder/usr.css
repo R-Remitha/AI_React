@@ -1,0 +1,192 @@
+.usrEditButton
+{
+    margin-left:30px;
+    margin-top: 2px;
+    font-size: 21px;
+    color:black;
+    border-radius: 15px;
+  box-shadow: 0 0 8px rgb(207, 207, 207);
+}
+.headerdiv2 input[type="text"] {
+    width: auto;
+    max-width: 100%;
+  text-align: center;
+  border: aliceblue;
+  height: 47px;
+  width:fit-content;
+  outline: none;
+}
+.usrtop
+{
+  
+    margin-top: -546px;
+    margin-left: 519px;
+}
+.usrtop iframe{
+  background-color: rgb(147, 145, 145);
+}
+/*usr */
+.tta
+{
+    margin-top: -13px;
+    margin-left: 40px;
+}
+.lab_discourse
+{
+    margin-top: 16px;
+    margin-left: 41px;
+}
+.tta textarea
+{
+    height: 64px;
+    width: 907px;
+    font-size: medium;
+}
+        .tta input{
+            height: 64px;
+            width: 40%;
+            font-size: medium;
+        }
+        .ttab
+        {
+            
+            margin-top: -117px;
+            margin-left: 968px;
+        }
+        
+        .ttab input
+        {
+            height: 37px;
+            width: 263px;
+            margin-top: -198px;
+        }
+        .ttab1
+        {
+            margin-top: -5.6%;
+            margin-left: 84%;
+        }
+        .ttab1 input
+        {
+            height: 37px;
+            width: 193px;
+        }
+        .ttab2
+        {
+            margin-top: -23px;
+            margin-left: 84%;
+        }
+        .ttab2 input{
+            height: 37px;
+            width: 193px;
+        }
+        hr
+        {
+            border: 1px solid black;
+        }
+        .story
+        {
+            margin-left: 1%;
+        }
+        .story input
+        {
+            width: 67.6%;
+        }
+        .outl
+        {
+            width: 461px;
+            margin-top: 71px;
+            margin-left: 41px;
+        }
+        .os
+        {
+            display: flex;
+            flex-direction: column;
+        }
+        .osc
+        {
+            font-size: large;
+            line-height: 39px;
+        }
+        p.osc:hover
+        {
+            background-color: yellow;
+        }
+        .usr iframe
+        {
+            background-color: rgb(160, 160, 160);
+        }
+        table
+        {
+            padding-top: 5px;
+    padding-left: 14px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    border-collapse: separate;
+        }
+        td,th
+        {
+            height: 35px;
+            border-radius: 7px;
+            box-shadow: 2px 1px 2px black;
+        }
+        th
+        {
+            background: #ffc107;
+            width: auto;
+            padding-top: 13px;
+            min-width: 145px;
+        }
+        td{
+            margin-left: 50px;
+            background: white;
+            text-align: -webkit-center;
+            width: auto;
+        }
+        .headerdiv
+        { 
+            width: 86%;
+            padding-right: 10px;
+        }
+        /*.headerdiv2
+        {
+            display: block;
+        }*/
+
+        .MuiPagination-root {
+            background-color:hsl(0, 0%, 100%);
+            
+            }
+          .usrBtnControls
+          {
+            margin-top: 10px;
+          }
+          .alignPagination
+          {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            overflow: hidden;
+            align-items:center;
+}
+
+
+.usrBtnControls button
+{
+    margin-left:18px;
+    background-color: black;
+}
+.usrBtnControls label{
+    margin-left:18px;
+}
+.usrBtnControls input
+{
+    margin-left:18px;
+    color:black;
+    height: 30px;
+}
+.headerdiv2
+{
+    padding-left: 7px;
+    padding-right: 7px;
+}
