@@ -26,7 +26,7 @@ const USR = () => {
   const [users, setUsers] = useState([])
 
   const fetchData = () => {
-    fetch("http://localhost:9999/orignal_usr_fetch")
+    fetch("http://localhost:9999/orignal_usr_fetch?index=${index}")
       .then(response => {
         return response.json()
       })
@@ -45,16 +45,15 @@ const USR = () => {
       })
   }
 
-  // useEffect(() => {
-  //   fetchData()
-  // }, [])
+  useEffect(() => {
+    fetchData()
+  }, [index])
 
 
   useEffect(() => {
     const searchParams = new URLSearchParams(window.location.search);
     const receivedIndex = searchParams.get("receivedindex") || 0;
     setIndex(receivedIndex ? receivedIndex : 0);
-    fetchData()
   }, [index]);
 
   const viewTable = () => {
